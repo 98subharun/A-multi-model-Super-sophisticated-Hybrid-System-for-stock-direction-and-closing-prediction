@@ -10,9 +10,13 @@ performs time based sorting and ticket tagging
 To obtain the desired temporal features, the following quantitative variables are created:
 
 Returns: The change in price from yesterday to today relative to yesterday's closing price (percentage)
+
 Log Returns: A logarithmized form to stabilize variance
+
 Moving Averages (MA7, MA30, MA21): The average price for the past week, month and 21 days to show intermediate to long patterns
+
 Volatility (σ7, σ21): The rolling standard deviation of returns is a measure of uncertainty over the market's history.
+
 Momentum: Change compared to MA of momentum based on shorter averaged time - tendency to persist in the same direction.
 
 Everything was scaled using ```StandardScaler()```
