@@ -47,9 +47,7 @@ Predicts the value for the next trading day.
 Next-Day Trend Direction (Classification)
 Predicts whether the value will increase (↑) or decrease (↓) compared to the current day by leveraging:
 
-Direction= ![Direction Equation](https://latex.codecogs.com/png.latex?\color{white}\text{Direction}=\begin{cases}1,&\text{if }Close_{t+1}>Close_t\\0,&\text{otherwise}\end{cases})
-
-
+Direction= ![Direction Equation](https://latex.codecogs.com/png.latex?%5Ccolor%7Bwhite%7D%5Ctext%7BDirection%7D%3D%5Cbegin%7Bcases%7D1%2C%26%5Ctext%7Bif%20%7DClose_%7Bt%2B1%7D%3EClose_t%5C%5C0%2C%26%5Ctext%7Botherwise%7D%5Cend%7Bcases%7D)
 
 Two models will be trained for regression and classification; however, both follow the same ensemble structure as a basis.
 
