@@ -29,6 +29,7 @@ Deep Neural Network (DNN) - A feedforward structure for generalization with dens
 
 Each of these models predicts the next-day closing price based on the engineered features independently.
 
+
 B. Meta-Learner (Level 2 Stacking)
 
 Predictions from RF, XGB, and DNN are treated as meta-features.
