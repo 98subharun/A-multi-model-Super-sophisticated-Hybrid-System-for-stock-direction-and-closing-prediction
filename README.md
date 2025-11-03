@@ -37,7 +37,7 @@ A RidgeCV regressor (for regression) or Logistic Regression (for classification)
 
 This meta-ensemble minimizes bias and variance from different independent models.
 
-📈 Two Predictions at Once
+# Two Predictions at Once
 
 The SSPA performs two predictions simultaneously:
 
@@ -51,7 +51,7 @@ Predicts whether the value will increase (↑) or decrease (↓) compared to the
 
 Two models will be trained for regression and classification; however, both follow the same ensemble structure as a basis.
 
-🧮 Evaluation Metrics
+# Evaluation Metrics
 
 For Regression:
 
