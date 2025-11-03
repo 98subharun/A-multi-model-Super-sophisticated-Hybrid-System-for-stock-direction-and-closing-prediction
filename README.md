@@ -47,16 +47,13 @@ Predicts the value for the next trading day.
 Next-Day Trend Direction (Classification)
 Predicts whether the value will increase (↑) or decrease (↓) compared to the current day by leveraging:
 
-Direction= <div align="center">
-
-$\text{Direction} = 
+Direction= $$
+\text{Direction} = 
 \begin{cases} 
 1, & \text{if } Close_{t+1} > Close_t \\
 0, & \text{otherwise}
-\end{cases}$
-
-</div>
-
+\end{cases}
+$$
 
 Two models will be trained for regression and classification; however, both follow the same ensemble structure as a basis.
 
